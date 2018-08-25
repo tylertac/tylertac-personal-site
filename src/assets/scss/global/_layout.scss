@@ -1,0 +1,86 @@
+.index {
+
+  h1 {
+    font-size: 5rem;
+    color: red;
+    font-family: 'Inknut Antiqua', serif;
+  }
+
+  a {
+    color:black;
+    text-decoration: underline;
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top:10%;
+    padding: 0 5%;
+
+    img {
+      width: 20%;
+      margin-bottom: 20px;
+    }
+
+
+  }
+
+    /* Basic background image styling. */
+  .background-image {
+  	background-position: center center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  }
+
+  /* Styles for the alternating / transition effect. */
+  .toggle-image {
+   	position: absolute;
+  	width: 50%;
+  	top: 0;
+    right:10%;
+  	left: 50%;
+   	height: 100%;
+  	transition: opacity 1s ease-in-out;
+
+    @media only screen and (max-width: 830px) {
+      width: 100%;
+      top: 480px;
+      left: 0;
+      padding:0;
+      margin-top: 20px;
+    }
+
+  }
+
+  /* Styles for the specific images. */
+  .first-image {
+  	background-image: url('https://s169923.gridserver.com/images/dtlarooftop.jpg');
+  	z-index: -3;
+  	opacity: 0;
+  }
+
+  .second-image {
+  	background-image: url('https://s169923.gridserver.com/images/winterbarrel.jpg');
+  	z-index: -2;
+  	opacity: 0;
+  }
+
+  .third-image {
+  	background-image: url('https://s169923.gridserver.com/images/catalinaharbor.jpg');
+  	z-index: -1;
+  	opacity: 0;
+  }
+
+  .first-image.show {
+  	opacity: 1;
+  }
+
+  .second-image.show {
+  	opacity: 1;
+  }
+
+  .third-image.show {
+  	opacity: 1;
+  }
+
+}
