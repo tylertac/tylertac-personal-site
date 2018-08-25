@@ -46,27 +46,39 @@
       width: 100%;
       top: 480px;
       left: 0;
-      padding:0;
       margin-top: 20px;
+      // margin: 20px;
     }
 
   }
 
   /* Styles for the specific images. */
   .first-image {
-  	background-image: url('https://s169923.gridserver.com/images/dtlarooftop.jpg');
-  	z-index: -3;
+  	background-image: url('/assets/img/ladies-night.jpg');
+  	z-index: -5;
   	opacity: 0;
   }
 
   .second-image {
-  	background-image: url('https://s169923.gridserver.com/images/winterbarrel.jpg');
-  	z-index: -2;
+  	background-image: url('/assets/img/quarterly-1.jpg');
+  	z-index: -4;
   	opacity: 0;
   }
 
   .third-image {
-  	background-image: url('https://s169923.gridserver.com/images/catalinaharbor.jpg');
+  	background-image: url('/assets/img/sonoma.jpg');
+  	z-index: -3;
+  	opacity: 0;
+  }
+
+  .fourth-image {
+  	background-image: url('/assets/img/swell.jpg');
+  	z-index: -2;
+  	opacity: 0;
+  }
+
+  .fifth-image {
+  	background-image: url('/assets/img/quarterly-2.jpg');
   	z-index: -1;
   	opacity: 0;
   }
@@ -80,6 +92,14 @@
   }
 
   .third-image.show {
+  	opacity: 1;
+  }
+
+  .fourth-image.show {
+  	opacity: 1;
+  }
+
+  .fifth-image.show {
   	opacity: 1;
   }
 
