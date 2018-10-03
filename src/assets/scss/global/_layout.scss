@@ -1,22 +1,51 @@
 .index {
 
+    background-color: black;
+    height: 100%;
+
   h1 {
-    font-size: 5rem;
-    color: black;
+    font-size: 7em;
+    color: white;
     font-family: 'Inknut Antiqua', serif;
   }
 
+  p {
+    font-size: 2em;
+    color: white;
+    margin-top: 1em;
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .container {
+      padding: 10% !important;
+    }
+
+    h1 {
+      font-size: 4em;
+    }
+
+    p {
+      font-size: 1em;
+    }
+
+  }
+
   a {
-    color:black;
+    color:white;
     text-decoration: underline;
   }
 
   .container {
-    padding: 5%;
+    padding: 2%;
 
     img {
-      width: 20%;
-      margin-bottom: 20px;
+      width: 28%;
+      margin-bottom: 2rem;
+    }
+
+    .center {
+      margin: 0 auto;
     }
 
 
