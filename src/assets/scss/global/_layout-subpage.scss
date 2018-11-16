@@ -1,4 +1,4 @@
-.index {
+.subpage {
 
     background-color: black;
     height: 100%;
@@ -41,8 +41,8 @@
     }
 
   h1 {
-    font-size: 7em;
-    color: white;
+    font-size: 4em;
+    color: #c3c3c3;
     font-family: 'Inknut Antiqua', serif;
   }
 
@@ -59,20 +59,15 @@
     }
 
     h1 {
-      font-size: 4em;
+      font-size: 3em;
     }
 
     p {
       font-size: 1em;
     }
 
-    .intro {
-      position: unset !important;
-      margin-left: 10px !important;
-    }
-
-    .intro-work {
-      position: unset !important;
+    .logo {
+      width: 18% !important;
     }
 
 
@@ -84,46 +79,30 @@
   }
 
   .container {
-    padding: 2%;
+    padding: 6% 11% 2%;
 
     .intro {
-      position: fixed;
-      left:25%;
-      margin-left:-200px;
-      margin-top: 2em;
-    }
-
-    .intro-work {
-      position: relative;
-      left: 50%;
-    }
-
-    .logo {
-      width: 14%;
       margin-bottom: 2rem;
-    }
 
-    .center {
-      margin: 0 auto;
-    }
-
-    .project-container {
-      margin-bottom: 4em;
-      .homepage-text {
-        p {
-          font-size: 1.2em;
-        }
+      .logo {
+        width: 8%;
+        margin-bottom: 4rem;
       }
-      .homepage-work {
-        margin-bottom: 1em;
+
+      .center {
+        margin: 0 auto;
       }
 
     }
 
+    .work-container {
+      .work-img {
+          margin-bottom: 3rem;
+      }
+    }
 
+
+    }
 
 
   }
-
-
-}

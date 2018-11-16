@@ -50,32 +50,32 @@ injector.inject(
 // slick carousel
 $(".content-carousel").slick({
   // normal options...
-  speed: 5000,
-	autoplay: true,
-	autoplaySpeed: 0,
-	cssEase: 'linear',
-  slidesToShow: 5,
-	slidesToScroll: 1,
-  infinite: true,
-  swipeToSlide: true,
-	centerMode: true,
-  focusOnSelect: true,
+  speed: 300,
+	// autoplay: true,
+	// autoplaySpeed: 1000,
+	// cssEase: 'linear',
+  // slidesToShow: 1,
+	// slidesToScroll: 1,
+  // infinite: true,
+  // swipeToSlide: true,
+	// centerMode: true,
+  // focusOnSelect: true,
   // the magic
   responsive: [{
       breakpoint: 1024,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 1,
         infinite: true
       }
     }, {
       breakpoint: 600,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
         dots: true
       }
     }, {
       breakpoint: 300,
-      settings: "unslick" // destroys slick
+      // settings: "unslick" // destroys slick
     }]
 });
 
