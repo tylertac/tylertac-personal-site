@@ -3,6 +3,10 @@
     background-color: black;
     height: 100%;
 
+    .container {
+      padding: 2%;
+    }
+
 
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -51,79 +55,5 @@
     color: white;
     margin-top: 1em;
   }
-
-  @media only screen and (max-width: 1022px) {
-
-    .container {
-      padding: 10% !important;
-    }
-
-    h1 {
-      font-size: 4em;
-    }
-
-    p {
-      font-size: 1em;
-    }
-
-    .intro {
-      position: unset !important;
-      margin-left: 10px !important;
-    }
-
-    .intro-work {
-      position: unset !important;
-    }
-
-
-  }
-
-  a {
-    color:white;
-    text-decoration: underline;
-  }
-
-  .container {
-    padding: 2%;
-
-    .intro {
-      position: fixed;
-      left:25%;
-      margin-left:-200px;
-      margin-top: 2em;
-    }
-
-    .intro-work {
-      position: relative;
-      left: 50%;
-    }
-
-    .logo {
-      width: 14%;
-      margin-bottom: 2rem;
-    }
-
-    .center {
-      margin: 0 auto;
-    }
-
-    .project-container {
-      margin-bottom: 4em;
-      .homepage-text {
-        p {
-          font-size: 1.2em;
-        }
-      }
-      .homepage-work {
-        margin-bottom: 1em;
-      }
-
-    }
-
-
-
-
-  }
-
 
 }

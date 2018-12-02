@@ -2,16 +2,21 @@ $topbar-responsive-bg: #2c3840;
 $topbar-responsive-animation-type: fade-in; // or use slide-down or none
 
 .topbar-responsive {
-  background: $topbar-responsive-bg;
+  background: black;
   padding: 1rem 1.5rem;
+
+  img {
+    max-width: 15%
+  }
 
   .topbar-responsive-logo {
     color: $white;
     vertical-align: middle;
+    max-width: 15%
   }
 
   .menu {
-    background: $topbar-responsive-bg;
+    background: black;
 
     li:last-of-type {
       margin-right: 0;
@@ -54,6 +59,12 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
     .top-bar-title {
       position: relative;
       width: 100%;
+
+      img {
+        max-width: 25%;
+      }
+
+
 
       span {
         position: absolute;
