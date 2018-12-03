@@ -1,4 +1,4 @@
-.index {
+html {
 
     background-color: black;
     height: 100%;
@@ -6,7 +6,6 @@
     .container {
       padding: 2%;
     }
-
 
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -51,9 +50,9 @@
   }
 
   p {
-    font-size: 1.5em;
-    color: white;
-    margin-top: 1em;
+    // font-size: 1.5em;
+    // color: white;
+    // margin-top: 1em;
   }
 
 }
