@@ -6,14 +6,9 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
   padding: 1rem 1.5rem;
 
   img {
-    max-width: 15%
+    max-width: 10%
   }
 
-  .topbar-responsive-logo {
-    color: $white;
-    vertical-align: middle;
-    max-width: 15%
-  }
 
   .menu {
     background: black;
@@ -41,13 +36,13 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
    @media screen and (max-width: 1200px) {
      padding: 0.75rem;
 
+     img {
+       max-width: 15%;
+     }
+
     .top-bar-title {
       position: relative;
       width: 100%;
-
-      img {
-        // max-width: 20%;
-      }
 
       span {
         position: absolute;
