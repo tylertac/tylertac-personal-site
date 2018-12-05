@@ -11,7 +11,7 @@
 
   .orbit-previous,
   .orbit-next {
-      p { 
+      p {
         margin-bottom: 0;
         font-size: 6vw;
       }
@@ -19,7 +19,6 @@
 
   .orbit-caption {
     top: 0;
-    // transform: translateY(50%);
     background: none;
     text-align: left;
     color: $white;
