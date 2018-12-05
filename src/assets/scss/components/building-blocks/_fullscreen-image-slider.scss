@@ -1,17 +1,28 @@
 .fullscreen-image-slider {
+
+  .orbit {
+    :focus {outline:0;}
+  }
+
   .orbit-image {
     width: 100%;
-    height: 100vh;
+  }
+
+
+  .orbit-previous,
+  .orbit-next {
+      p { 
+        margin-bottom: 0;
+        font-size: 6vw;
+      }
   }
 
   .orbit-caption {
-    bottom: 50%;
-    transform: translateY(50%);
+    top: 0;
+    // transform: translateY(50%);
     background: none;
-    text-align: center;
+    text-align: left;
     color: $white;
     font-weight: bold;
   }
 }
-
-
