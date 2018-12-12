@@ -44,24 +44,17 @@ html {
     }
 
   h1 {
-    font-size: 7em;
+    font-size: 4em;
+    line-height: normal;
     color: white;
-    font-family: 'Inknut Antiqua', serif;
+    font-family: 'Karla', serif;
+    font-weight: bold;
   }
 
   p {
-    // font-size: 1.5em;
+    font-size: 1.5em;
     color: white;
     // margin-top: 1em;
   }
 
-}
-
-.about {
-  h1 {
-    font-size: 4.5em;
-  }
-  p {
-    font-size: 1.5em;
-  }
 }
