@@ -23,10 +23,14 @@ workPreview:
     preview-link: 'lead-awards.html'
     preview-image: '/assets/img/preview/lead-preview.png'
     preview-title: '2018 LEAD Awards'
+  -
+    preview-link: ''
+    preview-image: '/assets/img/preview/lead-preview.png'
+    preview-title: '2018 LEAD Awards'
   # -
   #   preview-link: ''
-  #   preview-image: '/assets/img/preview/uCares-preview.jpg'
-  #   preview-title: 'uCares Logo'
+  #   preview-image: ''
+  #   preview-title: 'Cookbook'
   # -
   #   preview-link: ''
   #   preview-image: '/assets/img/preview/adscore-logo-preview.jpg'
