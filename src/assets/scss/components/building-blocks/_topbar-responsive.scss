@@ -3,7 +3,7 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
 
 .topbar-responsive {
   background: black;
-  padding: 1rem 2rem;  
+  padding: 1rem 2rem;
 
   img {
     max-width: 10%
@@ -27,7 +27,7 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
       }
 
       @media screen and (max-width: 600px) {
-        padding: 0.875rem 0;
+        padding: 0.475rem 0;
       }
     }
 
