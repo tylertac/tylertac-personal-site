@@ -23,59 +23,59 @@ workPreview:
     preview-link: 'lead-awards.html'
     preview-image: '/assets/img/preview/lead-preview.png'
     preview-title: '2018 LEAD Awards'
-  -
-    preview-link: ''
-    preview-image: '/assets/img/preview/uCares-preview.jpg'
-    preview-title: 'uCares Logo'
-  -
-    preview-link: ''
-    preview-image: '/assets/img/preview/adscore-logo-preview.jpg'
-    preview-title: 'AdScore by Unified'
-  -
-    preview-link: 'q4-2018-quarterly.html'
-    preview-image: '/assets/img/preview/unified-quarterly-preview.jpg'
-    preview-title: 'Unified Quarterly Q4 2018'
-  -
-    preview-link: ''
-    preview-image: 'https://via.placeholder.com/1200x664'
-    preview-title: 'Lead'
-  -
-    preview-link: ''
-    preview-image: 'https://via.placeholder.com/1200x664'
-    preview-title: 'Unified Exposes'
-  -
-    preview-link: ''
-    preview-image: 'https://via.placeholder.com/1200x664'
-    preview-title: 'Office Poster Designs'
-  -
-    preview-link: ''
-    preview-image: 'https://via.placeholder.com/1200x664'
-    preview-title: 'Email Templates'
-  -
-    preview-link: ''
-    preview-image: 'https://via.placeholder.com/1200x664'
-    preview-title: 'Q3 2016 Unified Quarterly'
-  -
-    preview-link: ''
-    preview-image: 'https://via.placeholder.com/1200x664'
-    preview-title: 'uRule War Room'
-  -
-    preview-link: ''
-    preview-image: 'https://via.placeholder.com/1200x664'
-    preview-title: 'uRule IT Facilities'
-  -
-    preview-link: ''
-    preview-image: 'https://via.placeholder.com/1200x664'
-    preview-title: 'uRule Starbucks'
-  -
-    preview-link: ''
-    preview-image: 'https://via.placeholder.com/1200x664'
-    preview-title: 'uRule Starbucks'
-  -
-    preview-link: ''
-    preview-image: 'https://via.placeholder.com/1200x664'
-    preview-title: 'Unified Quarterly 2018 Trends To Watch'
-  -
-    preview-link: ''
-    preview-image: 'https://via.placeholder.com/1200x664'
-    preview-title: 'Unified Swag Items: Hat, Waterbottle, Shirts (With Data You Can)'
+  # -
+  #   preview-link: ''
+  #   preview-image: '/assets/img/preview/uCares-preview.jpg'
+  #   preview-title: 'uCares Logo'
+  # -
+  #   preview-link: ''
+  #   preview-image: '/assets/img/preview/adscore-logo-preview.jpg'
+  #   preview-title: 'AdScore by Unified'
+  # -
+  #   preview-link: 'q4-2018-quarterly.html'
+  #   preview-image: '/assets/img/preview/unified-quarterly-preview.jpg'
+  #   preview-title: 'Unified Quarterly Q4 2018'
+  # -
+  #   preview-link: ''
+  #   preview-image: 'https://via.placeholder.com/1200x664'
+  #   preview-title: 'Lead'
+  # -
+  #   preview-link: ''
+  #   preview-image: 'https://via.placeholder.com/1200x664'
+  #   preview-title: 'Unified Exposes'
+  # -
+  #   preview-link: ''
+  #   preview-image: 'https://via.placeholder.com/1200x664'
+  #   preview-title: 'Office Poster Designs'
+  # -
+  #   preview-link: ''
+  #   preview-image: 'https://via.placeholder.com/1200x664'
+  #   preview-title: 'Email Templates'
+  # -
+  #   preview-link: ''
+  #   preview-image: 'https://via.placeholder.com/1200x664'
+  #   preview-title: 'Q3 2016 Unified Quarterly'
+  # -
+  #   preview-link: ''
+  #   preview-image: 'https://via.placeholder.com/1200x664'
+  #   preview-title: 'uRule War Room'
+  # -
+  #   preview-link: ''
+  #   preview-image: 'https://via.placeholder.com/1200x664'
+  #   preview-title: 'uRule IT Facilities'
+  # -
+  #   preview-link: ''
+  #   preview-image: 'https://via.placeholder.com/1200x664'
+  #   preview-title: 'uRule Starbucks'
+  # -
+  #   preview-link: ''
+  #   preview-image: 'https://via.placeholder.com/1200x664'
+  #   preview-title: 'uRule Starbucks'
+  # -
+  #   preview-link: ''
+  #   preview-image: 'https://via.placeholder.com/1200x664'
+  #   preview-title: 'Unified Quarterly 2018 Trends To Watch'
+  # -
+  #   preview-link: ''
+  #   preview-image: 'https://via.placeholder.com/1200x664'
+  #   preview-title: 'Unified Swag Items: Hat, Waterbottle, Shirts (With Data You Can)'
