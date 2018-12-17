@@ -12,9 +12,9 @@ workPreview:
     preview-image: '/assets/img/preview/sonoma-preview-preview.jpg'
     preview-title: 'Sonoma Poster'
   -
-    preview-link: 'dsm.html'
-    preview-image: '/assets/img/preview/dsm-preview.jpg'
-    preview-title: 'Dark Social Measurement Sticke'
+    preview-link: 'ad-score.html'
+    preview-image: '/assets/img/preview/adscore-logo-preview.jpg'
+    preview-title: 'AdScore by Unified'
   -
     preview-link: 'ladies-night.html'
     preview-image: '/assets/img/preview/ladies-night-preview.jpg'
@@ -23,14 +23,14 @@ workPreview:
     preview-link: 'lead-awards.html'
     preview-image: '/assets/img/preview/lead-preview.png'
     preview-title: '2018 LEAD Awards'
+  -
+    preview-link: 'dsm.html'
+    preview-image: '/assets/img/preview/dsm-preview.jpg'
+    preview-title: 'Dark Social Measurement Sticker'
   # -
   #   preview-link: ''
   #   preview-image: ''
   #   preview-title: 'Cookbook'
-  # -
-  #   preview-link: ''
-  #   preview-image: '/assets/img/preview/adscore-logo-preview.jpg'
-  #   preview-title: 'AdScore by Unified'
   # -
   #   preview-link: 'q4-2018-quarterly.html'
   #   preview-image: '/assets/img/preview/unified-quarterly-preview.jpg'
