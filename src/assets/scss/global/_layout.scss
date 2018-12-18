@@ -7,6 +7,20 @@ html {
       padding: 2%;
     }
 
+    .half:first-of-type {
+      padding-left: 0px;
+    }
+    .half:nth-of-type(2){
+      padding-right: 0px;
+    }
+    .half:nth-of-type(3){
+      padding-left: 0px;
+    }
+    .half:nth-of-type(4){
+      padding-right: 0px;
+    }
+
+
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */

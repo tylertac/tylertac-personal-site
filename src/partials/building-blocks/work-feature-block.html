@@ -1,19 +1,31 @@
 
 <div class="container">
   <div class="work-feature-block">
-    <div class="columns medium-4">
-      <h1 class="work-feature-block-header">{{project-title}}</h1>
-      <p>{{project-description}}</p>
-    </div>
-    <div class="columns medium-8">
-      {{#each workImg}}
-        <img class="work-feature-block-image" src="{{src}}" alt="{{alt}}"/>
-      {{/each}}
-    </div>
-    <div class="columns medium-8">
-      {{#if slider}}
-        {{> slider}}
-      {{/if}}
-    </div>
+
+
+      <div class="columns medium-4">
+        <h1 class="work-feature-block-header">{{project-title}}</h1>
+        <p>{{project-description}}</p>
+      </div>
+
+      <div class="columns medium-8">
+
+        {{#each workImg}}
+          <img class="work-feature-block-image" src="{{src}}" alt="{{alt}}"/>
+        {{/each}}
+
+        {{#if slider}}
+          {{> slider}}
+        {{/if}}
+
+        {{#each workImgHalf}}
+          <div class="columns medium-6 half"> 
+            <img class="work-feature-block-image" src="{{src}}" alt="{{alt}}"/>
+          </div>
+        {{/each}}
+
+      </div>
+
+
   </div>
 </div>
