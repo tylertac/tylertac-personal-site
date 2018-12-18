@@ -31,10 +31,10 @@ workPreview:
   #   preview-link: ''
   #   preview-image: ''
   #   preview-title: 'Cookbook'
-  # -
-  #   preview-link: 'q4-2018-quarterly.html'
-  #   preview-image: '/assets/img/preview/unified-quarterly-preview.jpg'
-  #   preview-title: 'Unified Quarterly Q4 2018'
+  -
+    preview-link: 'q4-2018-quarterly.html'
+    preview-image: '/assets/img/preview/unified-quarterly-preview.jpg'
+    preview-title: 'Unified Quarterly Q4 2018'
   # -
   #   preview-link: ''
   #   preview-image: 'https://via.placeholder.com/1200x664'
