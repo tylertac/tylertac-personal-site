@@ -35,18 +35,26 @@ workPreview:
     preview-link: 'q4-2018-quarterly.html'
     preview-image: '/assets/img/preview/unified-quarterly-preview.jpg'
     preview-title: 'Unified Quarterly Q4 2018'
+  -
+    preview-link: 'war-room.html'
+    preview-image: '/assets/img/preview/war-room.jpg'
+    preview-title: 'Super Bowl War Room'
   # -
   #   preview-link: ''
-  #   preview-image: ''
-  #   preview-title: 'Cookbook'
+  #   preview-image: 'https://via.placeholder.com/1200x664'
+  #   preview-title: 'Unified Swag Items: Hat, Waterbottle, Shirts (With Data You Can)'
+  # -
+  #   preview-link: ''
+  #   preview-image: 'https://via.placeholder.com/1200x664'
+  #   preview-title: 'Unified Exposes'
   # -
   #   preview-link: ''
   #   preview-image: 'https://via.placeholder.com/1200x664'
   #   preview-title: 'uCares'
   # -
   #   preview-link: ''
-  #   preview-image: 'https://via.placeholder.com/1200x664'
-  #   preview-title: 'Unified Exposes'
+  #   preview-image: ''
+  #   preview-title: 'Cookbook'
   # -
   #   preview-link: ''
   #   preview-image: 'https://via.placeholder.com/1200x664'
@@ -59,10 +67,6 @@ workPreview:
   #   preview-link: ''
   #   preview-image: 'https://via.placeholder.com/1200x664'
   #   preview-title: 'Q3 2016 Unified Quarterly'
-  -
-    preview-link: ''
-    preview-image: 'https://via.placeholder.com/1200x664'
-    preview-title: 'uRule War Room'
   # -
   #   preview-link: ''
   #   preview-image: 'https://via.placeholder.com/1200x664'
@@ -79,7 +83,3 @@ workPreview:
   #   preview-link: ''
   #   preview-image: 'https://via.placeholder.com/1200x664'
   #   preview-title: 'Unified Quarterly 2018 Trends To Watch'
-  # -
-  #   preview-link: ''
-  #   preview-image: 'https://via.placeholder.com/1200x664'
-  #   preview-title: 'Unified Swag Items: Hat, Waterbottle, Shirts (With Data You Can)'
