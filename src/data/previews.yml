@@ -39,18 +39,22 @@ workPreview:
     preview-link: 'war-room.html'
     preview-image: '/assets/img/preview/war-room.jpg'
     preview-title: 'Super Bowl War Room'
-  # -
-  #   preview-link: ''
-  #   preview-image: 'https://via.placeholder.com/1200x664'
-  #   preview-title: 'Unified Swag Items: Hat, Waterbottle, Shirts (With Data You Can)'
-  # -
-  #   preview-link: ''
-  #   preview-image: 'https://via.placeholder.com/1200x664'
-  #   preview-title: 'Unified Exposes'
-  # -
-  #   preview-link: ''
-  #   preview-image: 'https://via.placeholder.com/1200x664'
-  #   preview-title: 'uCares'
+  -
+    preview-link: 'expose.html'
+    preview-image: '/assets/img/preview/expose.jpg'
+    preview-title: 'Unified Exposés'
+  -
+    preview-link: 'swag.html'
+    preview-image: '/assets/img/preview/swag.jpg'
+    preview-title: 'Unified Swag'
+  -
+    preview-link: 'new-social-media-complex.html'
+    preview-image: '/assets/img/preview/new-social-complex.jpg'
+    preview-title: 'Unified Quarterly: The Social Media Complex'
+  -
+    preview-link: 'ucares.html'
+    preview-image: '/assets/img/preview/ucares.jpg'
+    preview-title: 'uCares'
   # -
   #   preview-link: ''
   #   preview-image: ''
@@ -63,10 +67,6 @@ workPreview:
   #   preview-link: ''
   #   preview-image: 'https://via.placeholder.com/1200x664'
   #   preview-title: 'Email Templates'
-  # -
-  #   preview-link: ''
-  #   preview-image: 'https://via.placeholder.com/1200x664'
-  #   preview-title: 'Q3 2016 Unified Quarterly'
   # -
   #   preview-link: ''
   #   preview-image: 'https://via.placeholder.com/1200x664'
