@@ -27,23 +27,19 @@ workPreview:
     preview-link: 'dsm.html'
     preview-image: '/assets/img/preview/dsm-preview.jpg'
     preview-title: 'Dark Social Measurement Sticker'
-  # -
-  #   preview-link: ''
-  #   preview-image: ''
-  #   preview-title: 'Cookbook'
+  -
+    preview-link: 'lead.html'
+    preview-image: '/assets/img/preview/lead.jpg'
+    preview-title: 'Lead'
   -
     preview-link: 'q4-2018-quarterly.html'
     preview-image: '/assets/img/preview/unified-quarterly-preview.jpg'
     preview-title: 'Unified Quarterly Q4 2018'
   # -
   #   preview-link: ''
-  #   preview-image: 'https://via.placeholder.com/1200x664'
-  #   preview-title: 'Lead'
+  #   preview-image: ''
+  #   preview-title: 'Cookbook'
   # -
-  #   preview-link: ''
-  #   preview-image: 'https://via.placeholder.com/1200x664'
-  # -
-  #   preview-title: 'Unified Swag Items: Hat, Waterbottle, Shirts (With Data You Can)'
   #   preview-link: ''
   #   preview-image: 'https://via.placeholder.com/1200x664'
   #   preview-title: 'uCares'
@@ -63,10 +59,10 @@ workPreview:
   #   preview-link: ''
   #   preview-image: 'https://via.placeholder.com/1200x664'
   #   preview-title: 'Q3 2016 Unified Quarterly'
-  # -
-  #   preview-link: ''
-  #   preview-image: 'https://via.placeholder.com/1200x664'
-  #   preview-title: 'uRule War Room'
+  -
+    preview-link: ''
+    preview-image: 'https://via.placeholder.com/1200x664'
+    preview-title: 'uRule War Room'
   # -
   #   preview-link: ''
   #   preview-image: 'https://via.placeholder.com/1200x664'
