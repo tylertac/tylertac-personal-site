@@ -5,6 +5,12 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
   background: black;
   padding: 1rem 2rem;
 
+  .top-bar-title {
+    -webkit-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+  }
+
   img {
     max-width: 8%;
   }
@@ -15,7 +21,6 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
     li:first-of-type {
       margin-right: 1em;
     }
-
     a {
       color: $white;
       transition: color 0.15s ease-in;
@@ -24,7 +29,6 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
       &:hover {
         color: lighten($topbar-responsive-bg, 60%);
       }
-
       @media screen and (max-width: 600px) {
         padding: 0.475rem 0;
       }
@@ -34,6 +38,11 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
       -webkit-align-items: end;
       -ms-flex-align: end;
       align-items: end;
+
+      li+li {
+        margin-left: 0rem;
+      }
+
     }
 
   }
@@ -62,12 +71,6 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
           margin-bottom: 4px;
         }
       }
-    }
-    .menu {
-      li:first-of-type {
-        margin-right: 0 !important;
-      }
-      text-align: left;
     }
   }
 }
