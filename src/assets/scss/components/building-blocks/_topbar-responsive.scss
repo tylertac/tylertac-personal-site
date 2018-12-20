@@ -2,7 +2,6 @@ $topbar-responsive-bg: #2c3840;
 $topbar-responsive-animation-type: fade-in; // or use slide-down or none
 
 .topbar-responsive {
-  background: black;
   padding: 1rem 2rem;
 
   img {
@@ -11,7 +10,6 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
 
 
   .menu {
-    background: black;
 
     li:first-of-type {
       margin-right: 1em;
@@ -60,7 +58,7 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
     }
     .menu {
       li:first-of-type {
-        margin-right: 0;
+        margin-right: 0 !important;
       }
       text-align: left;
     }
@@ -91,9 +89,9 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
     width: 100%;
 
     @if $topbar-responsive-animation-type == slide-down {
-      animation: slideDown 1s ease-in;
+      animation: slideDown 0.5s ease-in;
     } @else if $topbar-responsive-animation-type == fade-in {
-      animation: fadeIn 1s ease-in;
+      animation: fadeIn 0.5s ease-in;
     } @else {
       animation: none;
     }
