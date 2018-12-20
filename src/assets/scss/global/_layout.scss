@@ -7,17 +7,25 @@ html {
       padding: 2%;
     }
 
-    .half:first-of-type {
+    .half {
+      img {
+        padding: 20px 0px 10px 0;
+      }
+    }
+
+    .half:nth-child(even) {
       padding-left: 0px;
+      @media screen and (max-width: 800px) {
+        padding-left: 0rem;
+        padding-right: 0rem;
+      }
     }
-    .half:nth-of-type(2){
+    .half:nth-child(odd){
       padding-right: 0px;
-    }
-    .half:nth-of-type(3){
-      padding-left: 0px;
-    }
-    .half:nth-of-type(4){
-      padding-right: 0px;
+      @media screen and (max-width: 800px) {
+        padding-left: 0rem;
+        padding-right: 0rem;
+      }
     }
 
 

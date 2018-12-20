@@ -5,6 +5,12 @@ h1 {
   line-height: normal;
   color: white;
   font-weight: bold;
+
+  @media screen and (max-width: 800px) {
+    font-size: 3.2em;
+    letter-spacing: 0;
+  }
+
 }
 
 p {

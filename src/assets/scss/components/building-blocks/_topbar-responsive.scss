@@ -20,6 +20,7 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
     background: black;
     li:first-of-type {
       margin-right: 1em;
+      margin-bottom: 0.5em;
     }
     a {
       color: $white;
@@ -99,9 +100,9 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
     width: 100%;
 
     @if $topbar-responsive-animation-type == slide-down {
-      animation: slideDown 0.5s ease-in;
+      animation: slideDown 1s ease-in;
     } @else if $topbar-responsive-animation-type == fade-in {
-      animation: fadeIn 0.5s ease-in;
+      animation: fadeIn 1s ease-in;
     } @else {
       animation: none;
     }
