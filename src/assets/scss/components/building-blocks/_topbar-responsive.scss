@@ -1,7 +1,8 @@
-$topbar-responsive-bg: #2c3840;
+$topbar-responsive-bg: #000000;
 $topbar-responsive-animation-type: fade-in; // or use slide-down or none
 
 .topbar-responsive {
+  background: black;
   padding: 1rem 2rem;
 
   img {
@@ -10,7 +11,7 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
 
 
   .menu {
-
+    background: black;
     li:first-of-type {
       margin-right: 1em;
     }
