@@ -30,6 +30,12 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
       }
     }
 
+    &.simple {
+      -webkit-align-items: end;
+      -ms-flex-align: end;
+      align-items: end;
+    }
+
   }
 
    @media screen and (max-width: 1200px) {
