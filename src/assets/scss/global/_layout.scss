@@ -7,25 +7,12 @@ html {
       padding: 2%;
     }
 
-    .half {
-      img {
-        padding: 20px 0px 10px 0;
-      }
+    .half:nth-of-type(odd) {
+      padding-left: 0px;
     }
 
-    .half:nth-child(even) {
-      padding-left: 0px;
-      @media screen and (max-width: 800px) {
-        padding-left: 0rem;
-        padding-right: 0rem;
-      }
-    }
-    .half:nth-child(odd){
+    .half:nth-of-type(even) {
       padding-right: 0px;
-      @media screen and (max-width: 800px) {
-        padding-left: 0rem;
-        padding-right: 0rem;
-      }
     }
 
     @media only screen and (max-width: 640px) {
@@ -34,8 +21,6 @@ html {
         padding-right: 0px;
       }
     }
-
-
 
 
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
