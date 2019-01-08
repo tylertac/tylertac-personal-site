@@ -55,10 +55,14 @@ workPreview:
     preview-link: 'ucares.html'
     preview-image: '/assets/img/preview/ucares.jpg'
     preview-title: 'uCares'
-  # -
-  #   preview-link: ''
-  #   preview-image: ''
-  #   preview-title: 'Cookbook'
+  -
+    preview-link: 'sop.html'
+    preview-image: '/assets/img/preview/sop.gif'
+    preview-title: 'SOP Logo For Unified'
+  -
+    # preview-link: 'vegetarian-cookbook.html'
+    # preview-image: '/assets/img/preview/'
+    # preview-title: 'Cookbook'
   # -
   #   preview-link: ''
   #   preview-image: 'https://via.placeholder.com/1200x664'
