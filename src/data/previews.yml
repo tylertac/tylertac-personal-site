@@ -30,7 +30,7 @@ workPreview:
   -
     preview-link: 'lead.html'
     preview-image: '/assets/img/preview/lead.jpg'
-    preview-title: 'Lead'
+    preview-title: 'The Unified Lead Program'
   -
     preview-link: 'q4-2018-quarterly.html'
     preview-image: '/assets/img/preview/unified-quarterly-preview.jpg'
@@ -57,7 +57,7 @@ workPreview:
     preview-title: 'uCares'
   -
     preview-link: 'sop.html'
-    preview-image: '/assets/img/preview/sop.gif'
+    preview-image: '/assets/img/preview/sop.jpg'
     preview-title: 'SOP Logo For Unified'
   -
     # preview-link: 'vegetarian-cookbook.html'
