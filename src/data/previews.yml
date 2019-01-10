@@ -1,5 +1,17 @@
 workPreview:
   -
+    preview-link: 'cookbook.html'
+    preview-image: '/assets/img/preview/cookbook.jpg'
+    preview-title: 'Delicious Vegetarian Dishes'
+  -
+    preview-link: 'lead-awards.html'
+    preview-image: '/assets/img/preview/lead-preview.png'
+    preview-title: '2018 LEAD Awards'
+  -
+    preview-link: 'pep-talk-posters.html'
+    preview-image: '/assets/img/preview/pep-talk-poster.jpg'
+    preview-title: 'Pep Talk Posters'
+  -
     preview-link: 'think-b4-u-throw.html'
     preview-image: '/assets/img/preview/think-b4-you-throw.png'
     preview-title: 'Think Before You Throw'
@@ -20,13 +32,13 @@ workPreview:
     preview-image: '/assets/img/preview/ladies-night-preview.jpg'
     preview-title: "Ladies' Night for Ladies' Rights'"
   -
-    preview-link: 'lead-awards.html'
-    preview-image: '/assets/img/preview/lead-preview.png'
-    preview-title: '2018 LEAD Awards'
-  -
     preview-link: 'dsm.html'
     preview-image: '/assets/img/preview/dsm-preview.jpg'
     preview-title: 'Dark Social Measurement Sticker'
+  -
+    preview-link: 'ucares.html'
+    preview-image: '/assets/img/preview/ucares.jpg'
+    preview-title: 'uCares'
   -
     preview-link: 'lead.html'
     preview-image: '/assets/img/preview/lead.jpg'
@@ -51,10 +63,6 @@ workPreview:
     preview-link: 'new-social-media-complex.html'
     preview-image: '/assets/img/preview/new-social-complex.jpg'
     preview-title: 'The Social Media Complex'
-  -
-    preview-link: 'ucares.html'
-    preview-image: '/assets/img/preview/ucares.jpg'
-    preview-title: 'uCares'
   -
     preview-link: 'sop.html'
     preview-image: '/assets/img/preview/sop.jpg'
