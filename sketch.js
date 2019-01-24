@@ -5,7 +5,7 @@ var tooColor;
 var inBetweenColor;
 var scaledVal;
 
-var sourceText = "Welcome";
+// var sourceText = "Loading";
 
 
 let t = 0; // time variable
@@ -35,14 +35,16 @@ function setup() {
 
 function draw() {
 
+
   fill(255);
-  textSize(100);
   textAlign(CENTER, CENTER);
-  var middle = sourceText.length;
-  var left = middle - ((mouseX / windowWidth) * middle);
-  var right = middle + ((mouseX / windowWidth) * middle);
-  text(
-   sourceText.substring(left, right), width/2, height/2);
+  textSize(windowWidth / 14);
+  text("Ready?", width/2, height/2);
+
+  // var left = middle - ((mouseX / windowWidth) * middle);
+  // var right = middle + ((mouseX / windowWidth) * middle);
+  // text(
+  //  sourceText.substring(left, right), width/2, height/2);
 
 
   // remap the mouse position to a range between 0 and 1
