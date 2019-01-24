@@ -4,10 +4,6 @@ workPreview:
     preview-image: '/assets/img/preview/cookbook.jpg'
     preview-title: 'Delicious Vegetarian Dishes'
   -
-    preview-link: 'lead-awards.html'
-    preview-image: '/assets/img/preview/lead-preview.png'
-    preview-title: '2018 LEAD Awards'
-  -
     preview-link: 'pep-talk-posters.html'
     preview-image: '/assets/img/preview/pep-talk-poster.jpg'
     preview-title: 'Pep Talk Posters'
@@ -40,6 +36,10 @@ workPreview:
     preview-image: '/assets/img/preview/ucares.jpg'
     preview-title: 'uCares'
   -
+    preview-link: 'lead-awards.html'
+    preview-image: '/assets/img/preview/lead-preview.png'
+    preview-title: '2018 LEAD Awards'
+  -
     preview-link: 'lead.html'
     preview-image: '/assets/img/preview/lead.jpg'
     preview-title: 'The Unified Lead Program'
@@ -68,13 +68,9 @@ workPreview:
     preview-image: '/assets/img/preview/sop.jpg'
     preview-title: 'SOP Logo For Unified'
   -
-    # preview-link: 'vegetarian-cookbook.html'
-    # preview-image: '/assets/img/preview/'
-    # preview-title: 'Cookbook'
-  # -
   #   preview-link: ''
   #   preview-image: 'https://via.placeholder.com/1200x664'
-  #   preview-title: 'Office Poster Designs'
+  #   preview-title: 'Unified Quarterly 2018 Trends To Watch'
   # -
   #   preview-link: ''
   #   preview-image: 'https://via.placeholder.com/1200x664'
@@ -87,7 +83,3 @@ workPreview:
   #   preview-link: ''
   #   preview-image: 'https://via.placeholder.com/1200x664'
   #   preview-title: 'uRule Starbucks'
-  # -
-  #   preview-link: ''
-  #   preview-image: 'https://via.placeholder.com/1200x664'
-  #   preview-title: 'Unified Quarterly 2018 Trends To Watch'
