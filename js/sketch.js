@@ -32,6 +32,10 @@ function setup() {
 
 }
 
+function mousePressed() {
+  remove(); // remove whole sketch on mouse press
+}
+
 
 function draw() {
 
