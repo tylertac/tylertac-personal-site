@@ -12,12 +12,22 @@
     <div class="pagewrap" id="pagewrap">
 
       <div class="container show cover" id="page-1">
-        <p class="cover"><a class="pageload-link cover" href="anotherpage.html"></a></p>
+        <p class="cover">Page 1<a class="pageload-link cover" href="#page-2"></a></p>
       </div>
 
       <div class="container" id="page-2">
-         <p>Be there soon.</p>
+         <p>Page 2</p><a class="pageload-link" href="#page-3">Show Page 3</a></p>
       </div>
+
+      <div class="container" id="page-3">
+         <p>Page 3</p><a class="pageload-link" href="#page-4">Show Page 4</a></p>
+      </div>
+
+      <div class="container" id="page-4">
+         <p>Page 4</p><a class="pageload-link" href="#">End</a></p>
+      </div>
+
+
 
       <div id="loader" class="pageload-overlay" data-opening="M 0,0 c 0,0 63.5,-16.5 80,0 16.5,16.5 0,60 0,60 L 0,60 Z">
 				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 80 60" preserveAspectRatio="none">
@@ -51,10 +61,11 @@
 
 								classie.removeClass( pages[ currentPage ], 'show' );
 								// update..
-								currentPage = currentPage ? 0 : 1;
+                // currentPage = currentPage ? 0 : 1;
+                currentPage = currentPage ? 0 : 1;
 								classie.addClass( pages[ currentPage ], 'show' );
-
 							}, 2000 );
+
 						} );
 					} );
 				}
